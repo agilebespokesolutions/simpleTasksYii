@@ -1,0 +1,51 @@
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# visual studio code project files
+.vscode
+
+# sublime text project / workspace files
+*.sublime-project
+*.sublime-workspace
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+tests/_output/*
+tests/_support/_generated
+
+#vagrant folder
+/.vagrant
+
+# index files for development and production are different
+web/index.php
+web/index-test.php
+
+# some configuration files are different in production environment
+config/console.php
+config/db.php
+config/test.php
+config/test_db.php
+config/web.php
